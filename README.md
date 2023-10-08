@@ -1,4 +1,4 @@
-# U-net-for-image-segmentation-from-scratch--PyTorch
+# u-net_for_image-segmentation
 
 This repository contains an implementation of the U-Net architecture for image segmentation from scratch using PyTorch. U-Net is a convolutional neural network architecture for fast and precise segmentation of images, especially in the field of biomedical image analysis. It was proposed by Olaf Ronneberger, Philipp Fischer, and Thomas Brox in 2015.
 
