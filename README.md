@@ -1,8 +1,6 @@
-# u-net_for_image-segmentation
+# U-Net for image segmentation
 
-This repository contains an implementation of the U-Net architecture for image segmentation from scratch using PyTorch. U-Net is a convolutional neural network architecture for fast and precise segmentation of images, especially in the field of biomedical image analysis. It was proposed by Olaf Ronneberger, Philipp Fischer, and Thomas Brox in 2015.
-
-The implementation is based on the original U-Net paper, "U-Net: Convolutional Networks for Biomedical Image Segmentation" by Olaf Ronneberger, Philipp Fischer, and Thomas Brox, and the dataset used for training and testing is the Fetal Head [UltraSound Dataset For Image Segment](https://www.kaggle.com/datasets/ankit8467/fetal-head-ultrasound-dataset-for-image-segment) from Kaggle.
+This repository contains an implementation of the U-Net architecture for image segmentation from scratch using PyTorch. U-Net is a convolutional neural network architecture for fast and precise segmentation of images, especially in the field of biomedical image analysis. The implementation is based on the original U-Net paper [1] with the dataset used for training and testing from Kaggle [2].
 
 ![image](https://user-images.githubusercontent.com/78913240/231573416-5d0007e0-6edf-4d39-8d75-39bd9366e9d1.png)
 ![image](https://user-images.githubusercontent.com/78913240/231573472-242d2465-cf72-4dbc-9a72-00d2b1d7c650.png)
@@ -18,5 +16,8 @@ The implementation is based on the original U-Net paper, "U-Net: Convolutional N
 - pillow 8.0.1+
 
 ## Results
-The model achieved an F1 score of more than 0.9 on the test set
+The model achieved an F1 score of more than 0.9 on the test set.
 
+## References
+[1] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. "U-Net: Convolutional Networks for Biomedical Image Segmentation." 2015.
+[2] Fetal Head UltraSound Dataset For Image Segment, Kaggle. [Link](https://www.kaggle.com/datasets/ankit8467/fetal-head-ultrasound-dataset-for-image-segment)
